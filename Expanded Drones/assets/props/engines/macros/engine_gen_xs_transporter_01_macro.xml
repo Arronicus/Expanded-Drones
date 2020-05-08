@@ -2,4 +2,8 @@
 <diff>
   <add sel="/macros/macro/properties/identification" type="@name">{7001,18}</add>
   <add sel="/macros/macro/properties/identification" type="@description">{20006,102}</add>
+  <replace sel="/macros/macro/properties/thrust/@strafe">159.76</replace>
+  <replace sel="/macros/macro/properties/thrust/@pitch">172.048</replace>
+  <replace sel="/macros/macro/properties/thrust/@yaw">196.628</replace>
+  <replace sel="/macros/macro/properties/thrust/@roll">294.94</replace>
 </diff>

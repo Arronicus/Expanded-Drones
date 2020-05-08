@@ -1,3 +1,7 @@
+1.10 05/08/2020 for X4 3.1
+
+Improved thruster values on transport drone engines by 4x for mk1 and 5x for mk2 to try to address extremely slow docking times while in high attention. 
+
 1.0 05/06/2020 for X4 3.1
 
 Initial mod version. 

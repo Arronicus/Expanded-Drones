@@ -4,7 +4,7 @@
     <component ref="generic_engine" />
     <properties>
       <identification name="{7001,14}" description="{20006,102}" mk="2" />
-      <thrust forward="1105" reverse="1152" strafe="49.925" pitch="53.765" yaw="61.446" roll="92.169" />
+      <thrust forward="1105" reverse="1152" strafe="249.625" pitch="268.825" yaw="307.230" roll="460.845" />
       <angular />
       <hull integrated="1" />
       <sounds>
