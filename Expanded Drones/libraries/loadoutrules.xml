@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+  <add sel="/rules/unit/macros">
+    <!--Expanded Drones start-->
+  </add>
+  <add sel="/rules/unit/macros">
+    <macro category="transport" mk="2" macro="ship_gen_xs_cargodrone_empty_02_a_macro"/>
+  </add>
+  <add sel="/rules/unit/macros">
+    <macro category="transport" mk="2" macro="ship_gen_xs_cargodrone_container_02_a_macro" tags="container"/>
+  </add>
+  <add sel="/rules/unit/macros">
+    <macro category="transport" mk="2" macro="ship_gen_xs_cargodrone_solid_02_a_macro" tags="solid"/>
+  </add>
+  <add sel="/rules/unit/macros">
+    <macro category="transport" mk="2" macro="ship_gen_xs_cargodrone_liquid_02_a_macro" tags="liquid"/>
+  </add>
+  <add sel="/rules/unit/macros">
+    <macro category="transport" mk="2" macro="ship_gen_xs_cargodrone_equipment_02_a_macro" tags="equipment"/>
+  </add>
+  <add sel="/rules/unit/macros">
+    <macro category="transport" mk="2" macro="ship_gen_xs_cargodrone_pickup_02_a_macro" tags="pickup"/>
+  </add>
+  <add sel="/rules/unit/macros">
+    <macro category="orecollector" mk="2" macro="ship_gen_s_miningdrone_solid_02_a_macro"/>
+  </add>
+  <add sel="/rules/unit/macros">
+    <macro category="gascollector" mk="2" macro="ship_gen_s_miningdrone_liquid_02_a_macro"/>
+  </add>
+  <add sel="/rules/unit/macros">
+    <macro category="build" mk="2" macro="ship_gen_xs_buildingdrone_02_a_macro"/>
+  </add>
+  <add sel="/rules/unit/macros">
+    <macro category="repair" mk="2" macro="ship_gen_xs_repairdrone_02_a_macro"/>
+  </add>
+  <add sel="/rules/unit/macros">
+    <macro category="defence" mk="2" macro="ship_gen_s_fightingdrone_02_a_macro"/>
+  </add>
+  <add sel="/rules/unit/macros">
+    <!--Expanded Drones end-->
+  </add>
+  <add sel="/rules/unit/rules/ruleset[@type='player']/comment()[2]" pos="before">
+    <!--Expanded Drones Start-->
+  </add>
+  <add sel="/rules/unit/rules/ruleset[@type='player']/comment()[3]" pos="before">
+    <rule category="repair" mk="2" weight="3" classes="ship_l ship_xl station"/>
+  </add>
+  <add sel="/rules/unit/rules/ruleset[@type='player']/comment()[3]" pos="before">
+    <rule category="repair" mk="2" weight="10" classes="ship_l ship_xl" important="true" purposes="auxiliary"/>
+  </add>
+  <add sel="/rules/unit/rules/ruleset[@type='player']/comment()[3]" pos="before">
+    <rule category="transport" mk="2" weight="5" classes="station"/>
+  </add>
+  <add sel="/rules/unit/rules/ruleset[@type='player']/comment()[3]" pos="before">
+    <rule category="transport" mk="2" weight="5" classes="ship_l ship_xl" important="true" purposes="trade mine auxiliary"/>
+  </add>
+  <add sel="/rules/unit/rules/ruleset[@type='player']/comment()[3]" pos="before">
+    <rule category="defence" mk="2" weight="5" classes="ship_m ship_l ship_xl" purposes="fight" requiredocking="true" requireundocking="true"/>
+  </add>
+  <add sel="/rules/unit/rules/ruleset[@type='player']/comment()[3]" pos="before">
+    <rule category="build" mk="2" weight="10" classes="ship_l ship_xl" important="true" purposes="build"/>
+  </add>
+  <add sel="/rules/unit/rules/ruleset[@type='player']/comment()[3]" pos="before">
+    <rule category="orecollector" mk="2" weight="10" classes="ship_l ship_xl" important="true" purposes="mine" cargotags="solid" requiredocking="true" requireundocking="true"/>
+  </add>
+  <add sel="/rules/unit/rules/ruleset[@type='player']/comment()[3]" pos="before">
+    <rule category="gascollector" mk="2" weight="10" classes="ship_l ship_xl" important="true" purposes="mine" cargotags="liquid" requiredocking="true" requireundocking="true"/>
+  </add>
+  <add sel="/rules/unit/rules/ruleset[@type='player']/comment()[3]" pos="before">
+    <!--Expanded Drones End-->
+  </add>
+  <add sel="/rules/unit/rules/ruleset[@type='default']/comment()[4]" pos="before">
+    <!--Expanded Drones Start-->
+  </add>
+  <add sel="/rules/unit/rules/ruleset[@type='default']/comment()[5]" pos="before">
+    <!-- stations -->
+  </add>
+  <add sel="/rules/unit/rules/ruleset[@type='default']/comment()[6]" pos="before">
+    <rule category="transport" mk="2" weight="13" classes="station"/>
+  </add>
+  <add sel="/rules/unit/rules/ruleset[@type='default']/comment()[6]" pos="before">
+    <rule category="repair" mk="2" weight="3" classes="station"/>
+  </add>
+  <add sel="/rules/unit/rules/ruleset[@type='default']/comment()[6]" pos="before">
+    <rule category="build" mk="2" weight="18" classes="buildmodule" important="true"/>
+  </add>
+  <add sel="/rules/unit/rules/ruleset[@type='default']/comment()[6]" pos="before">
+    <rule category="transport" mk="2" weight="5" classes="buildmodule" important="true"/>
+  </add>
+  <add sel="/rules/unit/rules/ruleset[@type='default']/comment()[6]" pos="before">
+    <rule category="defence" mk="2" weight="25" classes="defencemodule"/>
+  </add>
+  <add sel="/rules/unit/rules/ruleset[@type='default']/comment()[6]" pos="before">
+    <rule category="transport" mk="2" weight="18" classes="production" important="true"/>
+  </add>
+  <add sel="/rules/unit/rules/ruleset[@type='default']/comment()[6]" pos="before">
+    <rule category="repair" mk="2" weight="2" classes="production"/>
+  </add>
+  <add sel="/rules/unit/rules/ruleset[@type='default']/comment()[6]" pos="before">
+    <rule category="transport" mk="2" weight="24" classes="pier" important="true"/>
+  </add>
+  <add sel="/rules/unit/rules/ruleset[@type='default']/comment()[6]" pos="before">
+    <rule category="repair" mk="2" weight="3" classes="pier"/>
+  </add>
+  <add sel="/rules/unit/rules/ruleset[@type='default']/comment()[6]" pos="before">
+    <!-- ships -->
+  </add>
+  <add sel="/rules/unit/rules/ruleset[@type='default']/comment()[7]" pos="before">
+    <rule category="repair" mk="2" weight="4" classes="ship_l ship_xl"/>
+  </add>
+  <add sel="/rules/unit/rules/ruleset[@type='default']/comment()[7]" pos="before">
+    <rule category="repair" mk="2" weight="10" classes="ship_l ship_xl" important="true" purposes="auxiliary"/>
+  </add>
+  <add sel="/rules/unit/rules/ruleset[@type='default']/comment()[7]" pos="before">
+    <rule category="transport" mk="2" weight="5" classes="ship_l ship_xl" important="true" purposes="trade mine auxiliary"/>
+  </add>
+  <add sel="/rules/unit/rules/ruleset[@type='default']/comment()[7]" pos="before">
+    <rule category="orecollector" mk="2" weight="10" classes="ship_l ship_xl" important="true" purposes="mine" cargotags="solid" requiredocking="true" requireundocking="true"/>
+  </add>
+  <add sel="/rules/unit/rules/ruleset[@type='default']/comment()[7]" pos="before">
+    <rule category="gascollector" mk="2" weight="10" classes="ship_l ship_xl" important="true" purposes="mine" cargotags="liquid" requiredocking="true" requireundocking="true"/>
+  </add>
+  <add sel="/rules/unit/rules/ruleset[@type='default']/comment()[7]" pos="before">
+    <rule category="build" mk="2" weight="13" classes="ship_l ship_xl" important="true" purposes="build"/>
+  </add>
+  <add sel="/rules/unit/rules/ruleset[@type='default']/comment()[7]" pos="before">
+    <rule category="defence" mk="2" weight="2" classes="ship_m ship_l ship_xl" purposes="trade mine build" requiredocking="true" requireundocking="true"/>
+  </add>
+  <add sel="/rules/unit/rules/ruleset[@type='default']/comment()[7]" pos="before">
+    <rule category="defence" mk="2" weight="2" classes="ship_l ship_xl" purposes="fight auxiliary" requiredocking="true" requireundocking="true"/>
+  </add>
+  <add sel="/rules/unit/rules/ruleset[@type='default']/comment()[7]" pos="before">
+    <!-- plunder-using fight ships need cargolifters -->
+  </add>
+  <add sel="/rules/unit/rules/ruleset[@type='default']/comment()[8]" pos="before">
+    <rule category="transport" mk="2" weight="3" classes="ship_l ship_xl" important="true" purposes="fight" factiontags="plunder"/>
+  </add>
+  <add sel="/rules/unit/rules/ruleset[@type='default']/comment()[8]" pos="before">
+    <!--Expanded Drones End-->
+  </add>
+</diff>

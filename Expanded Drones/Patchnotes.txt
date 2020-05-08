@@ -1,0 +1,21 @@
+1.0 05/06/2020 for X4 3.1
+
+Initial mod version. 
+Added:
+Mk2 variants of Cargo, Mining, Defence, Repair, & Construction Drones.
+- Cargo drone has vastly superior engine
+	- Mk2 xs cargo drone engine (thrust 5.0 over base mk1 transporter engine, other stats 1.25)
+- Mining drone (liquid and solid separately) has 2x hull, improved engine (mk2 s drone allround engine)
+	- Mk2 s drone all-round engine (25% more thrust than argon base model)
+- Defence drone has 1.3x hull, improved engine (mk2 s drone combat engine), mk2 weapon variation (from vanilla gamefiles)
+	- Mk2 s drone combat engine (25% more thrust than argon base model)
+- Repair drone has ~2x hull, improved engine
+	- Mk2 xs repair drone engine (all stats 1.25)
+- Construction drone has 3x hull. (Not particularly inspiring. Will consider improvements later, if feasible)
+
+Full English language t-file entries for all above with integration using existing t-files.
+All language options supported for drone and engine names, descriptions mostly in English only at this time. 
+
+Bugfixes:
+Mk1 transporter and repair drone engines now display their names properly when showing info on their respective drone loadouts
+

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+  <add sel="/language">
+    <page id="7001" title="Expanded Drones" descr="Names and descriptions of ships added by Expanded Drones" voice="no">
+      <t id="001">(Repair Drone Mk2){20101,100201} {20111,201}</t>
+      <t id="002">(Cargo Drone Mk2){20101,100101} {20111,201}</t>
+      <t id="003">(Building Drone Mk2){20101,100301} {20111,201}</t>
+      <t id="004">(Defence Drone Mk2){20101,100401} {20111,201}</t>
+      <t id="005">(Mining Drone Mk2){20101,100501} {20111,201}</t>
+      <t id="006">An improved version of the standard (repair drone){20101,100201}, optimized with a more powerful engine, and additional hull plating.</t>
+      <t id="007">An improved version of the standard (cargo drone){20101,100101}, optimized with a more powerful engine.</t>
+      <t id="008">An improved version of the standard (building drone){20101,100301}, optimized with additional hull plating.</t>
+      <t id="009">An improved version of the standard (defence drone){20101,100401}, optimized with a more powerful engine, additional hull plating, and upgraded weaponry.</t>
+      <t id="010">An improved version of the standard (mining drone){20101,100501}, optimized with a more powerful engine, and additional hull plating.</t>
+      <t id="011">(Drone S All-round Engine Mk2){20202,801} {20111,5011} {20107,1001} {20111,201}</t>
+      <t id="012">(Gas Collector Drone Mk1){20101,100601} {20111,101}</t>
+      <t id="013">(Gas Collector Drone Mk2){20101,100601} {20111,201}</t>
+      <t id="014">(Cargo Drone All-round Engine Mk2){20101,100101} {20107,1001} {20111,201}</t>
+      <t id="015">(Repair Drone All-round Engine Mk2){20101,100201} {20107,1001} {20111,201}</t>
+      <t id="016">(Mk2){20111,201} variant of an (All-round Engine{20107,1045} built for use exclusively on (S Drones){20111,5011}{1001,8}.</t>
+      <t id="017">(Drone S Combat Engine Mk2){20202,801} {20111,5011} {20107,1201} {20111,201}</t>
+      <t id="022">(Mk2){20111,201} variant of a (Combat Engine){20107,1201} built for use exclusively on (S Drones){20111,5011}{1001,8}.</t>
+      <t id="018">(Cargo Drone All-round Engine Mk1){20101,100101} {20107,1001} {20111,101}</t>
+      <t id="019">(Repair Drone All-round Engine Mk1){20101,100201} {20107,1001} {20111,101}</t>
+      <t id="111">testing 1</t>
+      <t id="112">testing 2</t>
+      <t id="113">testing 3</t>
+      <t id="114">testing 4</t>
+      <t id="115">testing 5</t>
+      <t id="116">testing 6</t>
+      <t id="117">testing 7</t>
+      <t id="118">testing 8</t>
+      <t id="119">testing 9</t>
+      <t id="1110">testing 10</t>
+      <t id="1111">testing 11</t>
+      <t id="1112">testing 12</t>
+    </page>
+  </add>
+</diff>

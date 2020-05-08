@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+  <add sel="/macros/macro/properties/identification" type="@name">{7001,19}</add>
+  <add sel="/macros/macro/properties/identification" type="@description">{20006,102}</add>
+</diff>
