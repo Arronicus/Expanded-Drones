@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
- <!-- based off of ARG S Combat Engine Mk2, but with improved thrust parameters, see All-round variant for more notes -->
+<!-- based off of ARG S Combat Engine Mk2 -->
 <macros>
-  <macro name="engine_drone_s_combat_01_mk2_macro" class="engine">
+  <macro name="engine_drone_s_combat_01_mk1_macro" class="engine">
     <component ref="engine_arg_s_combat_01_mk2" />
     <properties>
-      <identification name="{7001,017}" basename="{20107,1201}" shortname="{20107,1245}" makerrace="argon" description="{7001,022}" mk="2" />
+      <identification name="{7001,21}" basename="{20107,1201}" shortname="{20107,1205}" makerrace="argon" description="{20107,1202}" mk="1" />
       <boost duration="10" thrust="8" attack="0.25" release="1" />
       <travel charge="0" thrust="12" attack="15" release="10" />
-      <thrust forward="629" reverse="888" />
+      <thrust forward="503" reverse="710" />
       <angular />
       <hull integrated="1" />
       <effects>

@@ -1,3 +1,9 @@
+1.20 05/08/2020 for X4 3.2 beta
+
+Fixed typos that would cause some encyclopedia descriptions to display incorrectly
+Applied new engines to standard (mk1) defense and mining drones to prevent other mods from making them significantly faster than their mk2 counterparts
+Verified content is working in 3.2 beta
+
 1.10 05/08/2020 for X4 3.1
 
 Improved thruster values on transport drone engines by 4x for mk1 and 5x for mk2 to try to address extremely slow docking times while in high attention. 

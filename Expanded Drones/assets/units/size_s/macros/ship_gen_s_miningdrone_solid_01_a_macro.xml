@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+  <replace sel="/macros/macro/properties/loadouts/loadout/macros/engine[@macro='engine_arg_s_allround_01_mk1_macro'][@path='../con_engine_01']/@macro">engine_drone_s_allround_01_mk1_macro</replace>
+  <replace sel="/macros/macro/properties/loadouts/loadout/macros/engine[@macro='engine_arg_s_allround_01_mk1_macro']/@macro">engine_drone_s_allround_01_mk1_macro</replace>
+</diff>

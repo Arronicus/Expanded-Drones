@@ -49,6 +49,12 @@
     <entry name="ship_gen_xs_repairdrone_02_a_macro" value="extensions\Expanded Drones\assets\units\size_xs\macros\ship_gen_xs_repairdrone_02_a_macro"/>
   </add>
   <add sel="/index">
+    <entry name="engine_drone_s_allround_01_mk1_macro" value="extensions\Expanded Drones\assets\props\engines\macros\engine_drone_s_allround_01_mk1_macro"/>
+  </add>
+  <add sel="/index">
+    <entry name="engine_drone_s_combat_01_mk1_macro" value="extensions\Expanded Drones\assets\props\engines\macros\engine_drone_s_combat_01_mk1_macro"/>
+  </add>
+  <add sel="/index">
     <!--  <entry name="THEMACRO" value="extensions\Expanded Drones\assets\units\size_s\macros\THEMACRO" />  -->
   </add>
 </diff>

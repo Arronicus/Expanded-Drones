@@ -17,11 +17,13 @@
       <t id="013">(Gas Collector Drone Mk2){20101,100601} {20111,201}</t>
       <t id="014">(Cargo Drone All-round Engine Mk2){20101,100101} {20107,1001} {20111,201}</t>
       <t id="015">(Repair Drone All-round Engine Mk2){20101,100201} {20107,1001} {20111,201}</t>
-      <t id="016">(Mk2){20111,201} variant of an (All-round Engine{20107,1045} built for use exclusively on (S Drones){20111,5011}{1001,8}.</t>
+      <t id="016">(Mk2){20111,201} variant of an (All-round Engine){20107,1001} built for use exclusively on (S Drones){20111,5011}{1001,8}.</t>
       <t id="017">(Drone S Combat Engine Mk2){20202,801} {20111,5011} {20107,1201} {20111,201}</t>
       <t id="022">(Mk2){20111,201} variant of a (Combat Engine){20107,1201} built for use exclusively on (S Drones){20111,5011}{1001,8}.</t>
       <t id="018">(Cargo Drone All-round Engine Mk1){20101,100101} {20107,1001} {20111,101}</t>
       <t id="019">(Repair Drone All-round Engine Mk1){20101,100201} {20107,1001} {20111,101}</t>
+      <t id="020">(Drone S All-round Engine Mk1){20202,801} {20111,5011} {20107,1001} {20111,101}</t>
+      <t id="021">(Drone S Combat Engine Mk1){20202,801} {20111,5011} {20107,1201} {20111,101}</t>    
       <t id="111">testing 1</t>
       <t id="112">testing 2</t>
       <t id="113">testing 3</t>
